@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: banco-xyz
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          secret-key: "esta-es-una-clave-secreta-super-larga-para-el-proyecto-banco-xyz-2026"
+
+example:
+  message: "Propiedad de ejemplo desde el repo de configuración"
